@@ -50,7 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
-     font-weight: italic;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -64,7 +63,6 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
 
 }
 
@@ -81,6 +79,9 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
   
+  h1 {
+    font-weight: 800;
+  }
 
 
 
