@@ -1,8 +1,8 @@
 /*
-Project Name: Relaxr landing page
-Client: Relaxr
-Author: Roman Taykowski
-Developer @GA in LA
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
 */
 
 
@@ -10,48 +10,29 @@ Developer @GA in LA
 /* SETUP
 /*******************************************/
 
-/* Box Model Hack */
+/* Box Model Hack - applies to every element */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
 }
 
 
@@ -60,29 +41,106 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header {
+  background: url(http://i.imgur.com/El2JaGy.jpg);
+  background-size: cover;
+  color:white;
+  height: 678px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+nav{
+  height: 100px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+section {
+  background-color: #f0efef;
+  height: 500px;
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0px 0px 30px;
+}
+
+section p {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 10px 0px 10px 0px;
 
 }
 
-header { 
+section ul {
+  font-size: 13px;
+  font-weight: 300;
+  list-style-type: circle;
+  padding: 10px 0px 0px 40px;
+}
 
+.testimonial {
+  text-align: center;
+  background: url(http://i.imgur.com/Xp3KIds.jpg);
+  background-size: cover;
+  color: white;
+  height: 300px
+}
 
+.testimonial p {
+  font-size: 18px;
+  font-weight: 600;
+  padding:100px 100px 125px 100px;
+}
+
+.testimonial p span {
+  font-style: italic;
+  font-weight:300;
+}
+
+.action {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 100px;
 }
 
 footer {
-
+  background-color: #121212;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-  
-  h1 {
-    font-weight: 800;
-  }
 
+
+.firstbutton {
+  background: #f9e42e;
+  border: none;
+  color: #033048;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.secondbutton {
+  background: #033048;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 12px;
+      position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 
 

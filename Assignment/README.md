@@ -64,7 +64,7 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 ###Resources
 
 - Starter code can be found inside of the "starter_code" folder for this assignment.
-- [Google Fonts Tutorial](https://www.google.com/fonts)
+- [Google Fonts Tutorial](https://developers.google.com/fonts/docs/getting_started)
 - [Box Model explanation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model)
 - [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 - [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
@@ -82,3 +82,34 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 ###Evaluation / Submission
 
 Please create a new repository on GitHub called "homework-landingpage" and push your code to it when you are ready to submit. Melissa and I will evaluate and will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2). Bonus sections are completely optional. The maximum possible score on this assignment is 12/12.
+
+
+
+---
+
+## Challenge/Bonus
+
+
+
+### Option 1
+
+Create your own blog page using the following:
+
+- Google fonts
+  - Try experimenting with different font styling. Here is a reference to get you started http://www.htmlhelp.com/reference/css/font/
+- Semantic elements
+- Using a reset file
+
+Have fun and be creative with it. Try challenging yourslef with different layouts
+
+
+
+### Option 2
+
+Find a well designed websited that you like and try to recreate it. Think about what tools you could use to figure out the fonts and colors? Focus on recreating the overall layout even if it isn't pixel perfect. Try to avoid copying the exact code. Don't worry about images (some websites make it hard to copy images) and use a solid background color instead.
+
+Some suggested sites are (listed from least to most difficult): 
+
+- https://twitter.com/
+- http://www.custard.co.uk/
+- https://nike.com/
