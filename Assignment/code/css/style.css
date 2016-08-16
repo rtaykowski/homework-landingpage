@@ -71,7 +71,7 @@ section {
   color: #033048;
   font-size: 20px;
   font-weight: 600;
-  padding: 20px 30px 0px 30px;
+  padding: 60px 60px 0px 60px;
 }
 
 section p {
@@ -85,7 +85,8 @@ section ul {
   font-size: 13px;
   font-weight: 300;
   list-style-type: circle;
-  padding: 10px 0px 0px 40px;
+  padding: 10px 50px 0px 50px;
+  line-height: 40px;
 }
 
 .testimonial {
