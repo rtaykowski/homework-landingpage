@@ -93,7 +93,6 @@ nav{
   position: relative;
   top: 50%;
   transform: translateY(-50%)
-
 }
 
 nav div {
@@ -186,7 +185,7 @@ footer ul li {
 
 
 
-.secondbutton {
+.alert {
   background: #033048;
   color: white;
   border: none;
@@ -199,7 +198,7 @@ footer ul li {
   padding: 10px 50px;
 }
 
-.secondbutton:hover {
+.alert:hover {
   background-color: white;
   color: #f9e42e;
 }
